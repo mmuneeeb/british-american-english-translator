@@ -1,18 +1,42 @@
-code {
-  background: #d0d0d5;
+html{
+  height: 100%;
+}
+
+body {
+  background-image: url('bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color:#ffff;
+}
+
+h1{
+  text-align: center;
 }
 
 .container {
-  display: flex;
+  background-color: black;
+  opacity: 85%;
+  padding: 7% 10% 7% 10%;
+  display: inline-block;
   flex-direction: column;
+  margin-top: 5%;
+  margin-left: 2.5%;
+  margin-right: auto;
+  justify-content: center;
+  width: 75%;
+  height: 100%;
+  text-align: center;
 }
 
 .form-container {
-  max-width: 95%;
+  max-width: 100%;
+  justify-content: center;
 }
 
 textarea {
   width: 100%;
+  position: relative;
+  justify-content: center;
 }
 
 #user-stories {
@@ -35,11 +59,10 @@ input[type="button"] {
 
 #solution-container {
   font-weight: bold;
+  display: inline-block;
+  text-align: center;
 }
 
-#solution-container {
-  margin-left: 20px;
-}
 
 #translated-sentence {
   margin-top: 10px;
